@@ -88,4 +88,26 @@ var finances = [
 ];
 
 
-console.log(finances);
+console.log("Financial Analysis");
+console.log("------------------");
+
+let totalMonths = finances.length;
+console.log("Total Months: " + totalMonths);
+
+
+
+let totalAmount = 0;
+for (let i = 0; i < finances.length; i++) {
+  totalAmount += finances[i][1];
+}
+console.log("Total: $" + totalAmount);
+
+
+
+let totalChange = 0;
+for (let i = 1; i < finances.length; i++) {
+  totalChange += finances[i][1] - finances[i - 1][1];
+}
+
+let averageChange = totalChange / (finances.length - 1);
+console.log("Average Change: " + averageChange.toFixed(2));
