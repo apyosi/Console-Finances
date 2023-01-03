@@ -91,11 +91,12 @@ var finances = [
 console.log("Financial Analysis");
 console.log("------------------");
 
+//The total number of months calculation
 let totalMonths = finances.length;
 console.log("Total Months: " + totalMonths);
 
 
-
+//The net total amount of Profit/Losses over the entire period
 let totalAmount = 0;
 for (let i = 0; i < finances.length; i++) {
   totalAmount += finances[i][1];
@@ -103,7 +104,7 @@ for (let i = 0; i < finances.length; i++) {
 console.log("Total: $" + totalAmount);
 
 
-
+//The average of the changes in Profit/Losses over the entire period.
 let totalChange = 0;
 for (let i = 1; i < finances.length; i++) {
   totalChange += finances[i][1] - finances[i - 1][1];
