@@ -15,11 +15,23 @@ In this challenge, you’ll be using the concepts you’ve learned to complete t
 * (Total/Number of months)
 * The greatest increase in profits (date and amount) over the entire period.
 * The greatest decrease in losses (date and amount) over the entire period.
-* When you open your code in the browser your resulting analysis should look similar to the following:
+* Your final code should print the analysis to the browser console - the resulting analysis should look similar to the following:
 
+```text
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $38382578
+Average  Change: $-2315.12
+Greatest Increase in Profits: Feb-2012 ($1926159)
+Greatest Decrease in Profits: Sep-2013 ($-2196167)
+```
 
 ## Deployed Site Link
 [GitHub Pages](https://apyosi.github.io/Console-Finances/)
+
+## Usage
+Open the browser console
 
 ## Outcome
 ![screenshot](/assets/screenshot.png)
