@@ -126,7 +126,7 @@ Financial Analysis
 ------------------
 Total Months: ${totalMonths}
 Total: $${totalAmount}
-Average Change: ${averageChange}
+Average Change: $${averageChange}
 Greatest Increase in Profits: ${greatestIncreaseMonth} ($${greatestIncrease})
 Greatest Decrease in Profits: ${greatestDecreaseMonth} ($${greatestDecrease})
 `);
